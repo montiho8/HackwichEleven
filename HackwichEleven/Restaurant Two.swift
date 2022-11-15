@@ -1,5 +1,5 @@
 //
-//  Restaurant.swift
+//  Restaurant Two.swift
 //  HackwichEleven
 //
 //  Created by Dominique Cortez-Montiho on 11/14/22.
@@ -8,9 +8,8 @@
 import UIKit
 import MapKit
 
+class Restaurant_Two: NSObject, MKAnnotation {
 
-class Restaurant: NSObject, MKAnnotation {
-    
     let restaurantTitle: String
     let restaurantType: String
     let coordinate: CLLocationCoordinate2D
@@ -29,6 +28,5 @@ class Restaurant: NSObject, MKAnnotation {
         
     }
 
-    
     
 }
