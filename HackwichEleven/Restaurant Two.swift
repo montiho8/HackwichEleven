@@ -9,22 +9,25 @@ import UIKit
 import MapKit
 
 class Restaurant_Two: NSObject, MKAnnotation {
-
-    let restaurantTitle: String
-    let restaurantType: String
-    let coordinate: CLLocationCoordinate2D
+    var coordinate: CLLocationCoordinate2D
     
-    init(title:String, type:String, coordinate:CLLocationCoordinate2D)
+
+    let restaurantTwoTitle: String
+    let restaurantTwoType: String
+    let coordinateTwo: CLLocationCoordinate2D
+    
+    init(restaurantTwoTitle:String, restaurantTwoType:String, coordinateTwo:CLLocationCoordinate2D)
     {
-        self.restaurantTitle = title
-        self.restaurantType = type
-        self.coordinate = coordinate
+        self.restaurantTwoTitle = restaurantTwoTitle
+        self.restaurantTwoType = restaurantTwoType
+        self.coordinateTwo = coordinateTwo
         
         super.init()
+
     }
      
     var subtitle: String? {
-        return restaurantTitle
+        return restaurantTwoTitle
         
     }
 
