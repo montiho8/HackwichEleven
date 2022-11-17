@@ -21,7 +21,7 @@ class Restaurant_Two: NSObject, MKAnnotation {
         self.restaurantTwoTitle = restaurantTwoTitle
         self.restaurantTwoType = restaurantTwoType
         self.coordinateTwo = coordinateTwo
-        
+        self.coordinate = coordinateTwo
         super.init()
 
     }
